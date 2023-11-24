@@ -1,0 +1,46 @@
+{
+  "status": "ok",
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": { "id": "news24", "name": "News24" },
+      "author": "Lungani Zama",
+      "title": "Targets-obsessed SA cricket needs to stop looking back",
+      "description": "There are few things more deflating than watching a tournament when your team is no longer in it, writes Lungani Zama.",
+      "url": "https://www.news24.com/sport/cricket/worldcup/targets-obsessed-sa-cricket-needs-to-stop-looking-back-20231121",
+      "urlToImage": "https://cdn.24.co.za/files/Cms/General/d/9896/49faae30bc9b4ea2a4af1c7ebe634a63.jpg",
+      "publishedAt": "2023-11-21T11:03:29",
+      "content": "There are few things more deflating than watching a tournament when your team is no longer in it, writes Lungani Zama."
+    },
+    {
+      "source": { "id": "news24", "name": "News24" },
+      "author": "Lynn Butler",
+      "title": "SA20 to 'elevate the game' as Newlands set to host blockbuster final",
+      "description": "Commissioner Graeme Smith says the SA20 league will look to elevate cricket ahead of its second edition, with Newlands set to host the final next year.",
+      "url": "https://www.news24.com/sport/cricket/domestic/sa20-to-elevate-the-game-as-newlands-set-to-host-blockbuster-final-20231121",
+      "urlToImage": "https://cdn.24.co.za/files/Cms/General/d/9904/d316d9eccda2455eb1f1fb19965c14ca.jpg",
+      "publishedAt": "2023-11-21T10:05:25",
+      "content": "The countdown has begun for the SA20 league, with 50 days left until the opening encounter between the Sunrisers Eastern Cape and the Joburg Super Kings at St George's Park in Gqeberha.\r\nThe SA20 was… [+116 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+      "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+      "publishedAt": "2020-04-27T11:41:47Z",
+      "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+      "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+      "publishedAt": "2020-03-30T15:26:05Z",
+      "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+    }
+  ]
+}
