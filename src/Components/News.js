@@ -15,7 +15,7 @@ export class News extends Component {
   }  
 
    async componentDidMount(){ 
-	let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=e72782da96b94dfcadcc79c8181096f6&page=1&pageSize=${this.props.pageSize}` ; 
+	let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=e72782da96b94dfcadcc79c8181096f6&page=1&pageSize=${this.props.pageSize}` ; 
 	this.setState({ 
 		loading : true
 	})
@@ -30,7 +30,7 @@ export class News extends Component {
    } 
 
    handlePrevClick = async()=>{ 
-	let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=e72782da96b94dfcadcc79c8181096f6&page=${this.state.page-1}&pagesize=${this.props.pageSize}` ;  
+	let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=e72782da96b94dfcadcc79c8181096f6&page=${this.state.page-1}&pagesize=${this.props.pageSize}` ;  
 	this.setState({
 		loading : true
 	})
@@ -45,7 +45,7 @@ export class News extends Component {
 
    handleNextClick = async()=>{  
 	
-	let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=e72782da96b94dfcadcc79c8181096f6&page=${this.state.page+1}&pageSize=${this.props.pageSize}` ; 
+	let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=e72782da96b94dfcadcc79c8181096f6&page=${this.state.page+1}&pageSize=${this.props.pageSize}` ; 
 	this.setState({ 
 		loading : true
 	})
@@ -68,7 +68,7 @@ export class News extends Component {
 	  {!this.state.loading && this.state.articles.map((element) => { 
 	   return <div className="col-md-4" key = {element.url}>  
 	   <NewsItem title = {element.title} description={element.description} 
-	   imageUrl = {element.urlToImage} newsUrl = {element.url}/> 
+	   imageUrl = {element.urlToImage} newsUrl = {element.url} author = {element.author} date = {element.publishedAt}/> 
 	   </div>
 	  })} 	
 	</div> 
