@@ -3,15 +3,22 @@ import NewsItem from './NewsItem'
 import Spinner from './Spinner'
 
 
-export class News extends Component { 
-	constructor(){ 
-		super(); 
+export class News extends Component {  
+
+	capital = (string)=>{ 
+       return string.charAt(0).toUpperCase() + string.slice(1) ; 
+	}
+
+	constructor(props){ 
+		super(props); 
 	this.state = { 
 		articles: [] , 
 		loading: false , 
 		page: 1 , 
 		totalResults:0
-	 }	
+	  } 
+	  document.title = `${this.capital(this.props.category)} - NewsMonkey` 
+	 	
   }  
 
    async componentDidMount(){ 
@@ -62,7 +69,7 @@ export class News extends Component {
   render() {
 	return (
 	  <div className = "container my-3"> 
-	  <h1 className="text-center">NewsMonkey - Top Headlines</h1> 
+	  <h1 className="text-center" style = {{margin : '35px 0px'}}>NewsMonkey - Top {this.capital(this.props.category)} Headlines</h1> 
 	  {this.state.loading && <Spinner/>}
 	  <div className="row"> 
 	  {!this.state.loading && this.state.articles.map((element) => { 
